@@ -4,14 +4,64 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="src/style.css">
+    <link rel="stylesheet" href="src/style.css" />
+    <script
+      src="https://kit.fontawesome.com/647325a467.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Vite App</title>
   </head>
   <body class="dark:text-white dark:bg-neutral-950">
+    <header>
+      <div class="flex justify-between items-center border-b-1 border-b-neutral-900">
+        <img
+          class="w-32 h-10"
+          src="/yt_logo_fullcolor_white_digital.png"
+          alt=""
+        />
+        <div class="p-3">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="size-6"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z"
+            />
+          </svg>
+        </div>
+      </div>
+      <div class="flex px-3 py-2 items-center gap-6 overflow-scroll border-b-1 border-b-neutral-700">
+        <div class="text-white bg-neutral-800 flex items-center justify-center w-full h-full text-xl py-2 px-3">
+          <i class="fa-regular fa-compass"></i>
+        </div>
+        <div class="flex gap-3 items-center">
+          <span class="category">All</span>
+          <span class="category">Music</span><span class="category">Live</span
+          ><span class="category">Mixes</span
+          ><span class="category"
+            >FC Barcelona</span
+          ><span class="category">Premier League</span
+          ><span class="category">African Music</span
+          ><span class="category">JavaScript</span
+          ><span class="category">Gaming</span
+          ><span class="category">Science Fiction</span
+          ><span class="category">Lionel Messi</span>
+        </div>
+      </div>
+    </header>
+
     <h1 class="text-2xl">HELLO WORLD!!</h1>
 
     <nav>
-      <ul class="flex items-center justify-around text-xs fixed bottom-0 left-0 right-0 bg-neutral-950/70 p-3">
+      <ul
+        class="flex items-center justify-around text-xs fixed bottom-0 left-0 right-0 bg-neutral-950/70 p-3"
+      >
         <li class="flex flex-col items-center">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -64,11 +114,16 @@
           <span>Subscriptions</span>
         </li>
         <li class="flex flex-col items-center">
-          <img class="size-6 rounded-full" src="/toussaint-passport.jpg" alt="">
+          <img
+            class="size-6 rounded-full"
+            src="/toussaint-passport.jpg"
+            alt=""
+          />
           <span>You</span>
         </li>
       </ul>
     </nav>
+
     <script type="module" src="/src/main.js"></script>
   </body>
 </html>
